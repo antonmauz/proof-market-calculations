@@ -56,5 +56,9 @@ validator_reward = validator_network_reward + transaction_fee #reward for the va
 prover_amount * cycle_amount_user_specified * fee_per_cycle
 # If not enough amount, the fee will be burned, nodes return fail
 
+
+### key differences in how the User is shown the best guess for the cycles
+# possibility 1: the user is shown the best based on the past  
+
 if __name__ == "__main__":
     current_time = 0
